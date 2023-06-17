@@ -1,0 +1,65 @@
+.main {
+    padding: 205px; /* Adjust the top padding to create space for the header */
+  }
+  
+  .main_container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  }
+  
+  h1 {
+    font-size: 54px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .text {
+    flex: 1;
+    text-transform: uppercase;
+    margin-left: -10rem;
+    background-image: linear-gradient(to right, #98edf5, #eceef7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Courier New';
+    font-weight: 900;
+    position: absolute;
+    font-size: 18px;
+    margin-top: 1.5rem;
+  }
+  
+  p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .text .dev {
+    font-size: 10px;
+  }
+  
+  .icons .icon {
+    margin-left: 1rem;
+    color: rgb(168, 224, 246);
+    position: relative;
+  }
+  
+  .icons .icon1 {
+    color: rgb(168, 224, 246);
+    position: relative;
+  }
+  
+  .image {
+    display:inline-flex;
+    justify-content: flex-end;
+    margin-left: 10rem;
+    margin-right: -5rem;
+    padding: 0px;
+
+  }
+  
+  .image img {
+    max-width: 20%;
+    max-height: 20%;
+    width: 20%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    margin-top: 1rem;
+  }

@@ -1,0 +1,94 @@
+.contact {
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+  }
+  
+  a {
+    color: #98edf5;
+    text-decoration-style: none;
+  }
+  
+  .inputs {
+    width: 60%;
+    height: 80%;
+    margin: 2rem;
+    background: transparent;
+    color: #98edf5;
+  }
+  
+  .inputs h1 {
+    margin-left: 0;
+    background-image: linear-gradient(to right, #98edf5, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 38px;
+    margin-left: 24rem;
+  }
+  
+  input {
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+    margin-left: 10rem;
+    outline: none;
+    border: none;
+    background: transparent;
+    border: 2px solid rgb(168, 224, 246);
+    color: #98edf5;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .message {
+    padding-bottom: 10rem;
+  }
+  
+  button {
+    padding: 10px 40px;
+    background: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    border: 1px solid rgb(168, 224, 246);
+    color: rgb(192, 235, 255);
+    text-transform: uppercase;
+    margin-left: 10rem;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  button:hover {
+    color: #251564;
+    border: 1px solid #ffffff;
+    background-image: linear-gradient(to right, #75c9e3, #eceef7);
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  @media (max-width: 550px) {
+    .inputs {
+      width: 80%;
+    }
+  
+    input {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .inputs {
+      width: 100%;
+      margin: 1rem;
+    }
+  
+    .inputs h1 {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    input {
+      margin-left: 0;
+    }
+  
+    button {
+      margin-left: 0;
+    }
+  }
+  
